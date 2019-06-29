@@ -4,10 +4,10 @@ import { Video } from './Video';
 import { Menu } from './Menu';
 
 const VIDEOS = {
-  fast: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
-  slow: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-slow.mp4',
-  cute: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4',
-  eek: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4'
+  fast: "https://www.youtube.com/embed/fey2JshCNng?controls=1",
+  slow: 'https://www.youtube.com/embed/SB1YYnzfXmA',
+  cute: 'https://www.youtube.com/embed/rNSnfXl1ZjU',
+  eek: 'https://www.youtube.com/embed/iLi9Xa9EK-c'
 };
 
 class App extends React.Component {

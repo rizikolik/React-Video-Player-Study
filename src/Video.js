@@ -4,7 +4,10 @@ export class Video extends React.Component {
   render() {
     return (
       <div>
-        <video controls autostart autoPlay muted src={this.props.src}/>
+      <iframe width="420" height="315"
+      src={this.props.src}>
+      </iframe>
+        
       </div>
     );
   }
